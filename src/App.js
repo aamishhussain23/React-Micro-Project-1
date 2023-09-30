@@ -14,8 +14,10 @@ function App() {
     <div className="App">
        <Leftside></Leftside>
        <Form setData = {setData} ></Form>
-       <Cardfront card = {data} ></Cardfront>
-       <Cardback card = {data} ></Cardback>
+       <div className="cards">
+        <Cardfront card = {data} ></Cardfront>
+        <Cardback card = {data} ></Cardback>
+       </div>
     </div>
   )
 }
