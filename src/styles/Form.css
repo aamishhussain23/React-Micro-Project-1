@@ -10,7 +10,6 @@
 
 form{
     height: 400px;
-    box-shadow: 0 4px 55px rgba(0, 0, 0, 0.15);
     padding: 10px;
     border-radius: 10px;
     display: flex;
